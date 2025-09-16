@@ -23,12 +23,7 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
 
 1. Clone este repositório:
    
--git clone <URL_DO_SEU_REPOSITORIO>
-
-2. Navegue até o diretório do projeto:
-
--cd <NOME_DO_DIRETORIO>
-
+[-git clone <URL_DO_SEU_REPOSITORIO>](https://github.com/stellag2003/ConversorMedidas)
 
 ## 🚀 Como usar
 
@@ -37,11 +32,11 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
 node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
 
 ## Exemplo:
-node conversor.js 5 km m
-
-Saída esperada:
-
-5 km é igual a 0.005 m!
+   node conversor.js 5 km m
+   
+   Saída esperada:
+   
+   5 km é igual a 0.005 m!
 
 ## 📝 Estrutura do código
 
@@ -53,7 +48,7 @@ Saída esperada:
 
 - resultado: valor convertido (valor / 1000).
 
-##🔧 Possíveis melhorias
+## 🔧 Possíveis melhorias
 
 - Suporte a outras unidades (milhas, centímetros, etc.).
 
