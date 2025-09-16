@@ -23,7 +23,7 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
 
 1. Clone este repositório:
    
-[-git clone <URL_DO_SEU_REPOSITORIO>](https://github.com/stellag2003/ConversorMedidas)
+(https://github.com/stellag2003/ConversorMedidas)
 
 ## 🚀 Como usar
 
