@@ -31,7 +31,7 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
 
 - Execute o programa passando os três argumentos: valor, unidade de origem e unidade de destino.
 
-node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
+node conversor.js valor unidadeOrigem unidadeFinal
 
 ---
 
