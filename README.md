@@ -25,11 +25,15 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
    
 (https://github.com/stellag2003/ConversorMedidas)
 
+---
+
 ## 🚀 Como usar
 
 - Execute o programa passando os três argumentos: valor, unidade de origem e unidade de destino.
 
 node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
+
+---
 
 ## Exemplo:
    node conversor.js 5 km m
@@ -37,6 +41,8 @@ node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
    Saída esperada:
    
    5 km é igual a 0.005 m!
+
+---
 
 ## 📝 Estrutura do código
 
@@ -47,6 +53,8 @@ node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
 - unidadeFinal: unidade final (ex: m).
 
 - resultado: valor convertido (valor / 1000).
+
+---
 
 ## 🔧 Possíveis melhorias
 
