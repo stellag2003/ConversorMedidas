@@ -23,45 +23,43 @@ Um programa de linha de comando (CLI) em **Node.js** que converte valores de qui
 
 1. Clone este repositório:
    
-git clone <URL_DO_SEU_REPOSITORIO>
+-git clone <URL_DO_SEU_REPOSITORIO>
 
 2. Navegue até o diretório do projeto:
 
-cd <NOME_DO_DIRETORIO>
+-cd <NOME_DO_DIRETORIO>
 
-3. Instale as dependências (se houver):
-npm install
 
-🚀 Como usar
+## 🚀 Como usar
 
-Execute o programa passando os três argumentos: valor, unidade de origem e unidade de destino.
+- Execute o programa passando os três argumentos: valor, unidade de origem e unidade de destino.
 
 node conversor.js <valor> <unidadeOrigem> <unidadeFinal>
 
-Exemplo:
+## Exemplo:
 node conversor.js 5 km m
 
 Saída esperada:
 
 5 km é igual a 0.005 m!
 
-📝 Estrutura do código
+## 📝 Estrutura do código
 
-valor: número que será convertido.
+- valor: número que será convertido.
 
-unidadeOrigem: unidade inicial (ex: km).
+- unidadeOrigem: unidade inicial (ex: km).
 
-unidadeFinal: unidade final (ex: m).
+- unidadeFinal: unidade final (ex: m).
 
-resultado: valor convertido (valor / 1000).
+- resultado: valor convertido (valor / 1000).
 
-🔧 Possíveis melhorias
+##🔧 Possíveis melhorias
 
-Suporte a outras unidades (milhas, centímetros, etc.).
+- Suporte a outras unidades (milhas, centímetros, etc.).
 
-Adicionar verificação de entrada inválida.
+- Adicionar verificação de entrada inválida.
 
-Criar interface mais amigável com menus interativos.
+- Criar interface mais amigável com menus interativos.
 
-Permitir conversão bidirecional (metros → quilômetros).
+- Permitir conversão bidirecional (metros → quilômetros).
 
